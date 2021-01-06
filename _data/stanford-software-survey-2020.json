@@ -71,18 +71,18 @@
             "The School of Humanities & Sciences"
         ],
         "counts": {
-            "The School of Humanities & Sciences": 16,
-            "The School of Engineering": 14,
-            "Vice Presidency for the Arts at Stanford": 1,
-            "The School of Medicine": 27,
-            "Dean of Research": 1,
             "ChEM-H/DoR": 1,
-            "Stanford University Libraries": 2,
+            "Dean of Research": 1,
+            "SLAC": 1,
             "Stanford UIT": 1,
+            "Stanford University Libraries": 2,
             "The Graduate School of Business (GSB)": 1,
             "The Graduate School of Education": 1,
             "The School of Earth, Energy & Environmental Sciences": 2,
-            "SLAC": 1
+            "The School of Engineering": 14,
+            "The School of Humanities & Sciences": 16,
+            "The School of Medicine": 27,
+            "Vice Presidency for the Arts at Stanford": 1
         }
     },
     "Do you consider yourself a research software engineer (RSE)?": {
@@ -157,8 +157,8 @@
             "No"
         ],
         "counts": {
-            "Yes": 17,
-            "No": 51
+            "No": 51,
+            "Yes": 17
         }
     },
     "What is your job title?": {
@@ -228,18 +228,18 @@
             "PhD Student"
         ],
         "counts": {
-            "Software or Systems Engineer": 8,
-            "Manager": 4,
-            "PhD Student": 16,
+            "Assistant Professor": 5,
+            "Biomechanist": 1,
             "Director": 1,
             "Graduate Student": 2,
+            "HR": 1,
+            "Manager": 4,
+            "PhD Student": 16,
             "Postdoc": 9,
-            "Research Scientist ": 9,
-            "Research Assistant ": 5,
-            "Assistant Professor": 5,
             "Professor": 2,
-            "Biomechanist": 1,
-            "HR": 1
+            "Research Assistant ": 5,
+            "Research Scientist ": 9,
+            "Software or Systems Engineer": 8
         }
     },
     "Does your lab use or develop any open source software, or services?": {
@@ -314,9 +314,9 @@
             "Yes"
         ],
         "counts": {
+            "I don't know": 8,
             "No": 12,
-            "Yes": 48,
-            "I don't know": 8
+            "Yes": 48
         }
     },
     "List the top open source libraries that you use (GitHub or other version control address, one per line).": {
@@ -362,39 +362,39 @@
             "https://github.com/SurajGupta/r-source\nhttps://github.com/rclone/rclone\nhttps://github.com/Rdatatable/data.table\nhttps://github.com/tidyverse/tidyverse\nhttps://github.com/topepo/caret\nhttps://github.com/libgeos/geos\nhttps://github.com/OSGeo/gdal\nhttps://github.com/OSGeo/PROJ"
         ],
         "counts": {
-            "github": 1,
-            "https://github.com/qgis/QGIS\nhttps://github.com/OSGeo/gdal\nhttps://github.com/python/cpython\nhttps://github.com/numpy/numpy\nhttps://github.com/scipy/scipy\nhttps://github.com/Toblerity/Shapely\nhttps://github.com/electron/electron\nhttps://github.com/nodejs/node\nhttps://github.com/facebook/react": 1,
-            "rdkit (python - it's available via Anaconda)\nR\nKNIME": 1,
-            "https://github.com/singularityware\nhttps://github.com/jupyterlab/jupyterlab\nhttps://github.com/pyenv/pyenv\nhttps://github.com/nipreps/fmriprep\nhttps://github.com/nipy/nipype\nopen source data science ecosystem (pandas, numpy, scikit-learn, etc)\nopen source database  tools (sqlite, sqlalchemy, etc)": 1,
-            "https://github.com/dask/dask\nhttps://github.com/scipy/scipy\nhttps://github.com/datajoint\nhttps://github.com/napari/napari\nhttps://github.com/jupyterhub/jupyterhub\nhttps://github.com/MouseLand/cellpose\nhttps://github.com/google/neuroglancer\nhttps://github.com/numpy/numpy\nhttps://github.com/scikit-image/scikit-image\nhttps://github.com/cupy/cupy\nhttps://github.com/mritools/cupyimg\nhttps://github.com/pydata/xarray\nhttps://github.com/zarr-developers/zarr-python": 1,
-            "bwa\nsamtools\nmegahit": 1,
-            "Numpy, Scipy, ": 1,
-            "GitHub": 4,
-            "pandas, scikit-learn, pytorch, spacy, numpy, scipy": 1,
-            "https://github.com/alexdobin/STAR": 1,
-            "python, julia": 1,
-            "https://github.com/dpdk\nhttps://github.com/grpc/grpc\nhttps://github.com/leverich/mutilate": 1,
-            "https://github.com/ros": 1,
-            "version control: git\nprogramming languages and peripheral packages: python, R": 1,
-            "https://github.com/ros/ros\nhttps://github.com/tensorflow/tensorflow\nhttps://github.com/pytorch/pytorch": 1,
-            "https://github.com/grame-cncm/faust.git\nhttps://github.com/juce-framework/JUCE.git\nLinux\nEmacs\nPerl\nEtc\netc\netc\nMANY!  (In fact, 100% FOSS on most days, with very occasional use of Adobe, Quicken, and one or two others)": 1,
-            "ROS\nPOMDPS.jl ": 1,
-            "github\ncran": 1,
-            "Numpy\nPandas\nMatplotlib\nSeaborn": 2,
-            "Github": 3,
-            "https://github.com/DerrickWood/kraken2\nhttps://github.com/ablab/spades/\nhttps://github.com/lh3/bwa": 1,
-            "RNA-seq and scRNA-seq software (ex deseq2, scanpy, seurat, others)": 1,
-            "https://github.com/mskcc/facets\nhttps://github.com/nf-core\n": 1,
-            "I am not sure": 1,
-            "R": 1,
-            "NA": 1,
             "Bioconductor, GitHub": 1,
+            "GitHub": 4,
             "GitHub\nR\nPython\nHTML": 1,
-            "https://pypi.org/project/nltk/\nhttps://pypi.org/project/spacy/\nhttps://github.com/chartbeat-labs/textacy\nhttps://launchpad.net/beautifulsoup\nhttps://pypi.org/project/pandas/\nhttps://github.com/RaRe-Technologies/gensim\nhttps://github.com/aboSamoor/polyglot\nhttps://github.com/sloria/TextBlob\nhttps://github.com/clips/pattern\nhttps://github.com/flairNLP/flair": 1,
-            "https://github.com/oTree-org/oTree\nhttps://www.crummy.com/software/BeautifulSoup/bs4/doc/": 1,
-            "https://github.com/tensorflow/tensorflow\nhttps://github.com/pytorch/pytorch": 1,
+            "Github": 3,
+            "I am not sure": 1,
+            "NA": 1,
+            "Numpy\nPandas\nMatplotlib\nSeaborn": 2,
+            "Numpy, Scipy, ": 1,
+            "R": 1,
+            "RNA-seq and scRNA-seq software (ex deseq2, scanpy, seurat, others)": 1,
+            "ROS\nPOMDPS.jl ": 1,
+            "bwa\nsamtools\nmegahit": 1,
+            "github": 1,
+            "github\ncran": 1,
             "https://git.kernel.org/\nhttps://www.archlinux.org/\nhttps://ubuntu.com/\nhttps://www.debian.org/": 1,
-            "https://github.com/SurajGupta/r-source\nhttps://github.com/rclone/rclone\nhttps://github.com/Rdatatable/data.table\nhttps://github.com/tidyverse/tidyverse\nhttps://github.com/topepo/caret\nhttps://github.com/libgeos/geos\nhttps://github.com/OSGeo/gdal\nhttps://github.com/OSGeo/PROJ": 1
+            "https://github.com/DerrickWood/kraken2\nhttps://github.com/ablab/spades/\nhttps://github.com/lh3/bwa": 1,
+            "https://github.com/SurajGupta/r-source\nhttps://github.com/rclone/rclone\nhttps://github.com/Rdatatable/data.table\nhttps://github.com/tidyverse/tidyverse\nhttps://github.com/topepo/caret\nhttps://github.com/libgeos/geos\nhttps://github.com/OSGeo/gdal\nhttps://github.com/OSGeo/PROJ": 1,
+            "https://github.com/alexdobin/STAR": 1,
+            "https://github.com/dask/dask\nhttps://github.com/scipy/scipy\nhttps://github.com/datajoint\nhttps://github.com/napari/napari\nhttps://github.com/jupyterhub/jupyterhub\nhttps://github.com/MouseLand/cellpose\nhttps://github.com/google/neuroglancer\nhttps://github.com/numpy/numpy\nhttps://github.com/scikit-image/scikit-image\nhttps://github.com/cupy/cupy\nhttps://github.com/mritools/cupyimg\nhttps://github.com/pydata/xarray\nhttps://github.com/zarr-developers/zarr-python": 1,
+            "https://github.com/dpdk\nhttps://github.com/grpc/grpc\nhttps://github.com/leverich/mutilate": 1,
+            "https://github.com/grame-cncm/faust.git\nhttps://github.com/juce-framework/JUCE.git\nLinux\nEmacs\nPerl\nEtc\netc\netc\nMANY!  (In fact, 100% FOSS on most days, with very occasional use of Adobe, Quicken, and one or two others)": 1,
+            "https://github.com/mskcc/facets\nhttps://github.com/nf-core\n": 1,
+            "https://github.com/oTree-org/oTree\nhttps://www.crummy.com/software/BeautifulSoup/bs4/doc/": 1,
+            "https://github.com/qgis/QGIS\nhttps://github.com/OSGeo/gdal\nhttps://github.com/python/cpython\nhttps://github.com/numpy/numpy\nhttps://github.com/scipy/scipy\nhttps://github.com/Toblerity/Shapely\nhttps://github.com/electron/electron\nhttps://github.com/nodejs/node\nhttps://github.com/facebook/react": 1,
+            "https://github.com/ros": 1,
+            "https://github.com/ros/ros\nhttps://github.com/tensorflow/tensorflow\nhttps://github.com/pytorch/pytorch": 1,
+            "https://github.com/singularityware\nhttps://github.com/jupyterlab/jupyterlab\nhttps://github.com/pyenv/pyenv\nhttps://github.com/nipreps/fmriprep\nhttps://github.com/nipy/nipype\nopen source data science ecosystem (pandas, numpy, scikit-learn, etc)\nopen source database  tools (sqlite, sqlalchemy, etc)": 1,
+            "https://github.com/tensorflow/tensorflow\nhttps://github.com/pytorch/pytorch": 1,
+            "https://pypi.org/project/nltk/\nhttps://pypi.org/project/spacy/\nhttps://github.com/chartbeat-labs/textacy\nhttps://launchpad.net/beautifulsoup\nhttps://pypi.org/project/pandas/\nhttps://github.com/RaRe-Technologies/gensim\nhttps://github.com/aboSamoor/polyglot\nhttps://github.com/sloria/TextBlob\nhttps://github.com/clips/pattern\nhttps://github.com/flairNLP/flair": 1,
+            "pandas, scikit-learn, pytorch, spacy, numpy, scipy": 1,
+            "python, julia": 1,
+            "rdkit (python - it's available via Anaconda)\nR\nKNIME": 1,
+            "version control: git\nprogramming languages and peripheral packages: python, R": 1
         }
     },
     "List any software that is created or managed by your group or lab (GitHub or similar web addresses, one per line)": {
@@ -425,29 +425,29 @@
             "https://github.com/StanfordVL/iGibson"
         ],
         "counts": {
-            "https://github.com/deisseroth-lab": 1,
-            "Prism, microsoft office, adobe": 1,
-            "https://github.com/natcap/invest\nhttps://github.com/natcap/pygeoprocessing/\nhttps://github.com/natcap/taskgraph/": 1,
             "(none open source)": 1,
+            "GRF: https://github.com/grf-labs/grf\npolicytree: https://github.com/grf-labs/policytree\nsufrep: https://github.com/grf-labs/sufrep\nsynthdid: https://github.com/synth-inference/synthdid\ncausalTree: https://github.com/susanathey/causalTree\nMCPanel: https://github.com/susanathey/MCPanel": 1,
+            "I am not sure": 1,
+            "I contribute to many but only manage my personal research and teaching resources - We tend to use GitLab (local) over GitHub for research collaboration.": 1,
             "InVEST": 1,
-            "to be released, TiDE: an open source pipeline to de-identify clinical notes": 1,
+            "Links under \"Software\" here: https://www.mayamathur.com/": 1,
+            "N/A": 1,
+            "NA": 1,
+            "None": 1,
+            "Prism, microsoft office, adobe": 1,
+            "R": 1,
+            "https://github.com/StanfordMSL": 1,
+            "https://github.com/StanfordVL/iGibson": 1,
+            "https://github.com/abishara/athena_meta/\nhttps://github.com/bhattlab/bhattlab_workflows": 1,
+            "https://github.com/bhattlab": 2,
+            "https://github.com/deisseroth-lab": 1,
+            "https://github.com/natcap/invest\nhttps://github.com/natcap/pygeoprocessing/\nhttps://github.com/natcap/taskgraph/": 1,
+            "https://github.com/rlworkgroup/metaworld\nhttps://github.com/cbfinn/maml\nhttps://github.com/ezliu/dream\nhttps://github.com/SudeepDasari/RoboNet": 1,
+            "https://github.com/rohitrrj": 1,
+            "https://github.com/salzmanlab/SICILIAN\nhttps://github.com/lindaszabo/KNIFE\nhttps://github.com/juliaolivieri/SZS_pipeline": 1,
             "https://github.com/stanford-mast": 1,
             "protege.stanford.edu\nBioportal.bioontology.org\nmetadatacenter.org": 1,
-            "https://github.com/StanfordMSL": 1,
-            "GRF: https://github.com/grf-labs/grf\npolicytree: https://github.com/grf-labs/policytree\nsufrep: https://github.com/grf-labs/sufrep\nsynthdid: https://github.com/synth-inference/synthdid\ncausalTree: https://github.com/susanathey/causalTree\nMCPanel: https://github.com/susanathey/MCPanel": 1,
-            "https://github.com/rlworkgroup/metaworld\nhttps://github.com/cbfinn/maml\nhttps://github.com/ezliu/dream\nhttps://github.com/SudeepDasari/RoboNet": 1,
-            "I contribute to many but only manage my personal research and teaching resources - We tend to use GitLab (local) over GitHub for research collaboration.": 1,
-            "https://github.com/abishara/athena_meta/\nhttps://github.com/bhattlab/bhattlab_workflows": 1,
-            "None": 1,
-            "https://github.com/salzmanlab/SICILIAN\nhttps://github.com/lindaszabo/KNIFE\nhttps://github.com/juliaolivieri/SZS_pipeline": 1,
-            "https://github.com/bhattlab": 2,
-            "I am not sure": 1,
-            "R": 1,
-            "NA": 1,
-            "N/A": 1,
-            "Links under \"Software\" here: https://www.mayamathur.com/": 1,
-            "https://github.com/rohitrrj": 1,
-            "https://github.com/StanfordVL/iGibson": 1
+            "to be released, TiDE: an open source pipeline to de-identify clinical notes": 1
         }
     },
     "Do you use research software?": {
@@ -522,8 +522,8 @@
             "Yes"
         ],
         "counts": {
-            "Yes": 66,
-            "No": 2
+            "No": 2,
+            "Yes": 66
         }
     },
     "How important is research software to your work?": {
@@ -598,11 +598,11 @@
             "5"
         ],
         "counts": {
-            "4": 16,
-            "5": 46,
-            "3": 4,
             "1": 1,
-            "2": 1
+            "2": 1,
+            "3": 4,
+            "4": 16,
+            "5": 46
         }
     },
     "Have you developed your own research software?": {
@@ -677,8 +677,8 @@
             "Yes"
         ],
         "counts": {
-            "Yes": 48,
-            "No": 20
+            "No": 20,
+            "Yes": 48
         }
     },
     "How do you rate your software development expertise?": {
@@ -733,11 +733,11 @@
             "3"
         ],
         "counts": {
-            "4": 16,
-            "3": 22,
             "1": 1,
-            "5": 6,
-            "2": 3
+            "2": 3,
+            "3": 22,
+            "4": 16,
+            "5": 6
         }
     },
     "Do you feel that you have received sufficient training for software engineering best practices?": {
@@ -963,8 +963,8 @@
         "counts": {
             "Confident": 13,
             "Not confident": 25,
-            "Very confident": 3,
-            "Not heard of it": 7
+            "Not heard of it": 7,
+            "Very confident": 3
         }
     },
     "How confident are you with the following technologies? Unit testing": {
@@ -1021,8 +1021,8 @@
         "counts": {
             "Confident": 15,
             "Not confident": 26,
-            "Very confident": 5,
-            "Not heard of it": 2
+            "Not heard of it": 2,
+            "Very confident": 5
         }
     },
     "How would you rate the university's current level of support for your software-development needs?": {
@@ -1078,10 +1078,10 @@
         ],
         "counts": {
             "1": 5,
+            "2": 7,
             "3": 22,
             "4": 11,
-            "5": 3,
-            "2": 7
+            "5": 3
         }
     },
     "Have you or someone in your group ever hired someone specifically to develop software?": {
@@ -1156,8 +1156,8 @@
             "No"
         ],
         "counts": {
-            "Yes": 26,
-            "No": 42
+            "No": 42,
+            "Yes": 26
         }
     },
     "Have you ever included costs for software development in a funding proposal?": {
@@ -1234,10 +1234,10 @@
             "No (I'm not involved in writing funding proposals)"
         ],
         "counts": {
-            "Yes": 16,
-            "No (but we DID expect to write software as part of the project)": 14,
             "No (I'm not involved in writing funding proposals)": 37,
-            "No (we did NOT expect to write software as part of the project)": 3
+            "No (but we DID expect to write software as part of the project)": 14,
+            "No (we did NOT expect to write software as part of the project)": 3,
+            "Yes": 16
         }
     },
     "How suitable would the following models be for your software development needs? Hire a full-time software developer": {
@@ -1308,9 +1308,9 @@
             "Unsuitable"
         ],
         "counts": {
+            "Perfect": 10,
             "Suitable": 25,
-            "Unsuitable": 29,
-            "Perfect": 10
+            "Unsuitable": 29
         }
     },
     "How suitable would the following models be for your software development needs? Recruit a developer from RSE Services": {
@@ -1381,9 +1381,9 @@
             "Suitable"
         ],
         "counts": {
+            "Perfect": 9,
             "Suitable": 36,
-            "Unsuitable": 19,
-            "Perfect": 9
+            "Unsuitable": 19
         }
     }
 }

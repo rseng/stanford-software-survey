@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 
 import argparse
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 import csv
 import json
 import os
 import sys
 
 root = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
-multiple_choice_fields = ["Have you ever included costs for software development in a funding proposal?"]
+multiple_choice_fields = [
+    "Have you ever included costs for software development in a funding proposal?"
+]
+
 
 def get_parser():
 
@@ -69,7 +72,7 @@ def rows_to_dict(rows):
         if key in multiple_choice_fields:
             values = []
             for row in rows:
-                for entry in row[idx].split(';'):
+                for entry in row[idx].split(";"):
                     if not entry:
                         continue
                     values = values + [entry]
@@ -77,11 +80,14 @@ def rows_to_dict(rows):
             values = [x[idx] for x in rows if x[idx]]
 
         # Remove any [] from the key
-        key = key.replace('[','').replace(']', '').strip()
+        key = key.replace("[", "").replace("]", "").strip()
         counts = defaultdict(lambda: 0)
         for value in values:
             counts[value] += 1
-        data[key] = {"values": values, "counts": dict(counts)}
+
+        # Sort counts, important for likert scales
+        counts = dict(OrderedDict(sorted(dict(counts).items())))
+        data[key] = {"values": values, "counts": counts}
 
     return data
 
@@ -97,7 +103,7 @@ def main():
     for name in [args.input, args.outdir]:
         if not name or not os.path.exists(name):
             sys.exit("%s does not exist." % name)
-    
+
     # Read rows and ensure that all are equal length
     rows = read_rows(args.input, delim=args.delim)
     validate_rows(rows)

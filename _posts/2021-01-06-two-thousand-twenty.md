@@ -7,7 +7,9 @@ layout: post
 
 2020 was the first year of the Stanford Software Survey, which started discussion
 in early April, was developed in the months following, and went out in the Fall.
-In this post, we discuss the full results.
+In this post, we discuss the full results, which can serve as a baseline for future
+surveys, and the start of initiative to prove the necessity for research software
+engineers.
 
 # About People
 
@@ -58,6 +60,15 @@ graduate students, lab and university staff, and postdoctoral candidates work on
 
 <br>
 
+## How important is research software to your work?
+
+{% assign work_counts = site.data.stanford-software-survey-2020["How important is research software to your work?"].counts %}
+{% include graphs/bar.html counts=work_counts divid="work_chart_2020" labels="Not at all Important,Somewhat Important,Neutral,Moderately Important,Vital" %}
+
+<p class="team team-summary team-summary-large">This is a proud result! Software is becoming an increasingly important component to conducting research.</p>
+
+<br>
+
 ## Have you developed your own research software?
 
 {% assign develop_counts = site.data.stanford-software-survey-2020["Have you developed your own research software?"].counts %}
@@ -68,6 +79,14 @@ graduate students, lab and university staff, and postdoctoral candidates work on
 
 # Software Development
 
+
+# How do you rate your software development expertise?
+
+{% assign expertise_counts = site.data.stanford-software-survey-2020["How do you rate your software development expertise?"].counts %}
+{% include graphs/bar.html counts=expertise_counts divid="expertise_chart_2020" labels="Beginner,Competent,Proficient,Advanced,Professional" %}
+
+<p class="team team-summary team-summary-large">This is a reassuring result that most participants at least consider themselves proficient in software development.</p>
+
 ## Do you feel that you have received sufficient training for software engineering best practices?
 
 {% assign training_counts = site.data.stanford-software-survey-2020["Do you feel that you have received sufficient training for software engineering best practices?"].counts %}
@@ -77,8 +96,8 @@ graduate students, lab and university staff, and postdoctoral candidates work on
 
 ## How would you rate the university's current level of support for your software-development needs?
 
-{% assign rate_counts = site.data.stanford-software-survey-2020["How would you rate the university's current level of support for your software-development needs?"].counts %}
-{% include graphs/pie.html counts=rate_counts divid="chart_rate_2020" %}
+{% assign usupport_counts = site.data.stanford-software-survey-2020["How would you rate the university's current level of support for your software-development needs?"].counts %}
+{% include graphs/bar.html counts=usupport_counts divid="usupport_chart_2020" labels="Very Poor,Poor,Average,Good,Excellent" %}
 
 
 <br>

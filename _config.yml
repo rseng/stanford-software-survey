@@ -3,6 +3,9 @@ permalink: pretty
 title: 'The Stanford Software Survey'
 
 google_analytics_id: ""
+
+# Link to post with current results to appear at the top of home
+current_results: /2021/01/04/two-thousand-twenty/
 footer:
   copyright_text: 'Copyright 2021, Stanford University'
 

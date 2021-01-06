@@ -71,6 +71,13 @@ change this plotting library if you like.
 Finally, make a new post under [_posts](_posts) that follows suit of the other post
 to share an announcement for the results. It's a good idea to create a plan to share
 the results, again in announcements that might go out to lists, slack channels, etc.
+To update the button on the home page to link to the current results, update this
+yaml in the [_config.yml](_config.yml):
+
+```yaml
+# Link to post with current results to appear at the top of home
+current_results: /2021/01/04/two-thousand-twenty/
+```
 
 ## Survey Archive
 
