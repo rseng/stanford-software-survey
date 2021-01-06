@@ -1,0 +1,22 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'The Stanford Software Survey'
+
+google_analytics_id: ""
+footer:
+  copyright_text: 'Copyright 2021, Stanford University'
+
+seo:
+  meta_og_title: "Stanford Software Survey"
+  meta_og_type: "website"
+  meta_og_url: "https://stanford-rc.github.io/stanford-software-survey"
+  meta_og_image: "https://raw.githubusercontent.com/stanford-rc/stanford-software-survey/main/assets/img/SRCC-square-red.png"
+  meta_og_description: "The Stanford Software Survey is an effort to understand open source software at Stanford University to ultimately better support it."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@StanfordCompute"
+  meta_twitter_creator: "@vsoch"
+
+collections:
+  results:
+    output: true

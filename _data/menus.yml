@@ -1,0 +1,12 @@
+main:
+  - name: "Results"
+    url: "/results/"
+    weight: 2
+  - name: "About"
+    url: "/about/"
+    weight: 3
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1

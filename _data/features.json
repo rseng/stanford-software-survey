@@ -1,0 +1,17 @@
+[
+  {
+    "title": "SRCC",
+    "description": "The Stanford Research Computing Center",
+    "image": "assets/img/SRCC-square-red.png"
+  },
+  {
+    "title": "CORES",
+    "description": "The Center for Open and REproducibile Science",
+    "image": "assets/img/whyopenscience.jpeg"
+  },
+  {
+    "title": "DS",
+    "description": "Stanford Data Science",
+    "image": "assets/img/stanford-data-science.png"
+  }
+]

@@ -1,0 +1,163 @@
+In which school or unit are you most strongly affiliated?,Do you consider yourself a research software engineer (RSE)?,What is your job title?,"Does your lab use or develop any open source software, or services?","List the top open source libraries that you use (GitHub or other version control address, one per line). ","List any software that is created or managed by your group or lab (GitHub or similar web addresses, one per line)",Do you use research software?,How important is research software to your work?,Have you developed your own research software?,How do you rate your software development expertise?,Do you feel that you have received sufficient training for software engineering best practices?,Would you be interested in getting help from Research Software Engineering Services to work on some of your research software?,How confident are you with the following technologies? [Version control],How confident are you with the following technologies? [Continuous integration],How confident are you with the following technologies? [Unit testing],How would you rate the university's current level of support for your software-development needs?,Have you or someone in your group ever hired someone specifically to develop software?,Have you ever included costs for software development in a funding proposal?,How suitable would the following models be for your software development needs? [Hire a full-time software developer],How suitable would the following models be for your software development needs? [Recruit a developer from RSE Services]
+The School of Humanities & Sciences,Yes,Software or Systems Engineer,No,,,Yes,4,Yes,4,No,No,Confident,Confident,Confident,1,Yes,Yes,Suitable,Suitable
+The School of Engineering,No,,No,,,Yes,5,Yes,3,Yes,Yes,Confident,Not confident,Not confident,3,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+Vice Presidency for the Arts at Stanford,Yes,Manager,No,,,No,4,No,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Medicine,No,Software or Systems Engineer,Yes,github,https://github.com/deisseroth-lab,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,3,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Humanities & Sciences,No,PhD Student,I don't know,,,Yes,5,Yes,1,No,Yes,Not confident,Not confident,Not confident,3,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+The School of Medicine,No,,Yes,,"Prism, microsoft office, adobe",Yes,5,No,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+Dean of Research,Yes,Software or Systems Engineer,Yes,"https://github.com/qgis/QGIS
+https://github.com/OSGeo/gdal
+https://github.com/python/cpython
+https://github.com/numpy/numpy
+https://github.com/scipy/scipy
+https://github.com/Toblerity/Shapely
+https://github.com/electron/electron
+https://github.com/nodejs/node
+https://github.com/facebook/react","https://github.com/natcap/invest
+https://github.com/natcap/pygeoprocessing/
+https://github.com/natcap/taskgraph/",Yes,3,Yes,4,Yes,Yes,Very confident,Very confident,Very confident,3,Yes,Yes;No (I'm not involved in writing funding proposals),Perfect,Suitable
+ChEM-H/DoR,No,Director,Yes,"rdkit (python - it's available via Anaconda)
+R
+KNIME",,Yes,5,No,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+The School of Medicine,No,Software or Systems Engineer,Yes,"https://github.com/singularityware
+https://github.com/jupyterlab/jupyterlab
+https://github.com/pyenv/pyenv
+https://github.com/nipreps/fmriprep
+https://github.com/nipy/nipype
+open source data science ecosystem (pandas, numpy, scikit-learn, etc)
+open source database  tools (sqlite, sqlalchemy, etc)",(none open source),Yes,5,Yes,4,No,Yes,Confident,Not confident,Confident,1,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Humanities & Sciences,No,PhD Student,Yes,,,Yes,4,No,,,,,,,,No,No (we did NOT expect to write software as part of the project),,
+The School of Medicine,Yes,,Yes,"https://github.com/dask/dask
+https://github.com/scipy/scipy
+https://github.com/datajoint
+https://github.com/napari/napari
+https://github.com/jupyterhub/jupyterhub
+https://github.com/MouseLand/cellpose
+https://github.com/google/neuroglancer
+https://github.com/numpy/numpy
+https://github.com/scikit-image/scikit-image
+https://github.com/cupy/cupy
+https://github.com/mritools/cupyimg
+https://github.com/pydata/xarray
+https://github.com/zarr-developers/zarr-python",,Yes,5,Yes,5,Yes,Yes,Very confident,Not confident,Very confident,3,Yes,Yes,Suitable,Unsuitable
+The School of Humanities & Sciences,No,Graduate Student,Yes,,,Yes,4,Yes,3,No,Yes,Very confident,Not heard of it,Not heard of it,4,No,No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+Stanford University Libraries,Yes,Software or Systems Engineer,Yes,,,Yes,3,Yes,4,Yes,Yes,Confident,Confident,Confident,5,No,No (I'm not involved in writing funding proposals),Perfect,Unsuitable
+The School of Medicine,No,PhD Student,Yes,"bwa
+samtools
+megahit",,Yes,5,Yes,4,No,Yes,Not confident,Not heard of it,Confident,3,No,Yes,Suitable,Perfect
+The School of Medicine,Yes,Postdoc,Yes,"Numpy, Scipy, ",,Yes,5,Yes,3,No,No,Confident,Not heard of it,Not confident,3,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Humanities & Sciences,No,Research Scientist ,Yes,GitHub,InVEST,Yes,5,No,,,,,,,,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+Stanford UIT,No,Software or Systems Engineer,No,,,No,1,No,,,,,,,,No,Yes,Unsuitable,Unsuitable
+The School of Medicine,Yes,Research Scientist ,Yes,"pandas, scikit-learn, pytorch, spacy, numpy, scipy","to be released, TiDE: an open source pipeline to de-identify clinical notes",Yes,5,Yes,4,No,Yes,Very confident,Confident,Not confident,4,Yes,Yes,Perfect,Suitable
+The School of Medicine,No,Research Scientist ,Yes,https://github.com/alexdobin/STAR,,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,2,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Engineering,No,Research Assistant ,No,,,Yes,5,Yes,3,No,No,Confident,Not heard of it,Not heard of it,3,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Humanities & Sciences,No,Assistant Professor,I don't know,,,Yes,4,Yes,2,Yes,Yes,Confident,Not confident,Not confident,4,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Engineering,No,PhD Student,I don't know,,,Yes,3,Yes,2,No,Yes,Not confident,Not confident,Not confident,1,Yes,Yes,Unsuitable,Unsuitable
+The School of Engineering,Yes,PhD Student,Yes,"python, julia",,Yes,5,Yes,3,No,Yes,Very confident,Not confident,Not confident,1,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+The School of Engineering,No,PhD Student,Yes,"https://github.com/dpdk
+https://github.com/grpc/grpc
+https://github.com/leverich/mutilate",https://github.com/stanford-mast,Yes,5,Yes,5,No,No,Very confident,Confident,Confident,3,No,No (I'm not involved in writing funding proposals),Perfect,Perfect
+The School of Medicine,No,Professor,Yes,GitHub,"protege.stanford.edu
+Bioportal.bioontology.org
+metadatacenter.org",Yes,5,Yes,3,No,No,Confident,Not confident,Not confident,2,Yes,Yes,Perfect,Unsuitable
+The School of Medicine,No,PhD Student,No,,,Yes,5,Yes,4,No,Yes,Confident,Not confident,Confident,2,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+The School of Engineering,Yes,Software or Systems Engineer,Yes,https://github.com/ros,https://github.com/StanfordMSL,Yes,5,Yes,5,No,Yes,Very confident,Confident,Confident,3,Yes,No (I'm not involved in writing funding proposals),Perfect,Perfect
+The School of Humanities & Sciences,No,Research Scientist ,I don't know,,,Yes,5,Yes,3,No,Yes,Not confident,Not heard of it,Not confident,2,Yes,Yes,Suitable,Perfect
+The Graduate School of Business (GSB),No,Postdoc,Yes,"version control: git
+programming languages and peripheral packages: python, R","GRF: https://github.com/grf-labs/grf
+policytree: https://github.com/grf-labs/policytree
+sufrep: https://github.com/grf-labs/sufrep
+synthdid: https://github.com/synth-inference/synthdid
+causalTree: https://github.com/susanathey/causalTree
+MCPanel: https://github.com/susanathey/MCPanel",Yes,5,Yes,5,Yes,No,Very confident,Very confident,Very confident,4,No,Yes,Unsuitable,Unsuitable
+The School of Engineering,No,Assistant Professor,Yes,"https://github.com/ros/ros
+https://github.com/tensorflow/tensorflow
+https://github.com/pytorch/pytorch","https://github.com/rlworkgroup/metaworld
+https://github.com/cbfinn/maml
+https://github.com/ezliu/dream
+https://github.com/SudeepDasari/RoboNet",Yes,5,Yes,4,Yes,Yes,Very confident,Not confident,Very confident,2,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+Stanford University Libraries,Yes,Software or Systems Engineer,Yes,,,Yes,4,Yes,5,Yes,No,Very confident,Very confident,Confident,3,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+The School of Humanities & Sciences,Yes,Professor,Yes,"https://github.com/grame-cncm/faust.git
+https://github.com/juce-framework/JUCE.git
+Linux
+Emacs
+Perl
+Etc
+etc
+etc
+MANY!  (In fact, 100% FOSS on most days, with very occasional use of Adobe, Quicken, and one or two others)",I contribute to many but only manage my personal research and teaching resources - We tend to use GitLab (local) over GitHub for research collaboration.,Yes,5,Yes,4,No,No,Very confident,Confident,Confident,3,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Engineering,No,PhD Student,Yes,"ROS
+POMDPS.jl ",,Yes,5,Yes,3,No,Yes,Not confident,Not confident,Not confident,3,No,No (I'm not involved in writing funding proposals),Perfect,Perfect
+The Graduate School of Education,No,Assistant Professor,Yes,"github
+cran",,Yes,5,Yes,4,Yes,Yes,Confident,Not heard of it,Not confident,2,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Engineering,No,Postdoc,I don't know,,,Yes,5,Yes,5,Yes,No,Very confident,Confident,Confident,5,Yes,No (I'm not involved in writing funding proposals),Perfect,Perfect
+"The School of Earth, Energy & Environmental Sciences",No,Research Scientist ,No,,,Yes,5,Yes,4,No,Yes,Not confident,Not confident,Confident,3,No,No (but we DID expect to write software as part of the project),Unsuitable,Unsuitable
+The School of Medicine,Yes,Research Assistant ,Yes,"Numpy
+Pandas
+Matplotlib
+Seaborn",,Yes,4,Yes,3,No,Yes,Confident,Confident,Confident,4,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Medicine,No,Assistant Professor,Yes,Github,,Yes,5,Yes,4,No,Yes,Confident,Confident,Not confident,3,Yes,Yes,Suitable,Suitable
+The School of Medicine,No,,Yes,"https://github.com/DerrickWood/kraken2
+https://github.com/ablab/spades/
+https://github.com/lh3/bwa","https://github.com/abishara/athena_meta/
+https://github.com/bhattlab/bhattlab_workflows",Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,3,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Medicine,No,PhD Student,Yes,"RNA-seq and scRNA-seq software (ex deseq2, scanpy, seurat, others)",None,Yes,5,No,,,,,,,,No,No (I'm not involved in writing funding proposals),,
+The School of Humanities & Sciences,No,Manager,No,,,Yes,5,No,,,,,,,,Yes,Yes,Unsuitable,Suitable
+The School of Engineering,No,PhD Student,Yes,,"https://github.com/salzmanlab/SICILIAN
+https://github.com/lindaszabo/KNIFE
+https://github.com/juliaolivieri/SZS_pipeline",Yes,5,Yes,3,No,Yes,Not confident,Not heard of it,Not confident,3,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Medicine,No,Postdoc,Yes,,,Yes,5,Yes,4,Yes,Yes,Not confident,Not confident,Not confident,4,No,No (I'm not involved in writing funding proposals),Unsuitable,Perfect
+The School of Medicine,No,Manager,I don't know,,,Yes,4,No,,,,,,,,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+The School of Medicine,No,Postdoc,Yes,GitHub,https://github.com/bhattlab,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,3,No,No (but we DID expect to write software as part of the project),Suitable,Unsuitable
+The School of Medicine,No,,No,,,Yes,4,No,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+The School of Medicine,Yes,PhD Student,Yes,"https://github.com/mskcc/facets
+https://github.com/nf-core
+",,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,4,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Medicine,No,Research Scientist ,Yes,I am not sure,I am not sure,Yes,5,No,,,,,,,,No,No (we did NOT expect to write software as part of the project),Unsuitable,Suitable
+The School of Medicine,No,Postdoc,Yes,R,R,Yes,5,Yes,3,No,Yes,Not confident,Not confident,Not confident,5,No,No (I'm not involved in writing funding proposals),Unsuitable,Unsuitable
+SLAC,No,Research Assistant ,Yes,NA,NA,Yes,4,No,,,,,,,,No,No (I'm not involved in writing funding proposals),Perfect,Suitable
+The School of Medicine,No,Postdoc,Yes,"Bioconductor, GitHub",N/A,Yes,5,Yes,4,No,Yes,Confident,Confident,Confident,4,No,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Medicine,No,Research Scientist ,Yes,GitHub,https://github.com/bhattlab,Yes,5,No,,,,,,,,No,Yes,Suitable,Suitable
+The School of Medicine,No,Assistant Professor,Yes,Github,"Links under ""Software"" here: https://www.mayamathur.com/",Yes,5,Yes,3,Yes,Yes,Confident,Not confident,Confident,3,No,No (but we DID expect to write software as part of the project),Suitable,Perfect
+The School of Medicine,No,Biomechanist,No,,,Yes,5,No,,,,,,,,No,Yes,Suitable,Suitable
+The School of Medicine,Yes,Postdoc,Yes,"GitHub
+R
+Python
+HTML",https://github.com/rohitrrj,Yes,5,Yes,3,No,Yes,Confident,Confident,Not confident,3,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Engineering,No,Manager,I don't know,,,Yes,5,No,,,,,,,,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Humanities & Sciences,No,HR,No,,,Yes,4,No,,,,,,,,Yes,No (but we DID expect to write software as part of the project),Suitable,Suitable
+The School of Engineering,No,Graduate Student,Yes,,,Yes,4,Yes,2,No,Yes,Not confident,Not confident,Not confident,3,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+"The School of Earth, Energy & Environmental Sciences",Yes,PhD Student,Yes,Github,,Yes,5,Yes,4,No,Yes,Very confident,Confident,Very confident,4,No,No (but we DID expect to write software as part of the project),Unsuitable,Suitable
+The School of Medicine,Yes,Research Assistant ,Yes,"Numpy
+Pandas
+Matplotlib
+Seaborn",,Yes,4,Yes,3,No,Yes,Confident,Confident,Confident,4,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Humanities & Sciences,No,Postdoc,Yes,"https://pypi.org/project/nltk/
+https://pypi.org/project/spacy/
+https://github.com/chartbeat-labs/textacy
+https://launchpad.net/beautifulsoup
+https://pypi.org/project/pandas/
+https://github.com/RaRe-Technologies/gensim
+https://github.com/aboSamoor/polyglot
+https://github.com/sloria/TextBlob
+https://github.com/clips/pattern
+https://github.com/flairNLP/flair",,Yes,4,No,,,,,,,,Yes,Yes,Perfect,Perfect
+The School of Humanities & Sciences,No,Research Assistant ,Yes,"https://github.com/oTree-org/oTree
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/",,Yes,2,No,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
+The School of Engineering,No,PhD Student,Yes,"https://github.com/tensorflow/tensorflow
+https://github.com/pytorch/pytorch",https://github.com/StanfordVL/iGibson,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,3,No,No (I'm not involved in writing funding proposals),,
+The School of Humanities & Sciences,No,Research Scientist ,No,,,Yes,4,No,,,,,,,,No,No (but we DID expect to write software as part of the project),Suitable,Suitable
+The School of Humanities & Sciences,No,Research Scientist ,Yes,,,Yes,3,Yes,3,No,No,Not confident,Not confident,Not confident,2,Yes,Yes,Suitable,Unsuitable
+The School of Humanities & Sciences,No,PhD Student,I don't know,,,Yes,5,No,,,,,,,,Yes,No (I'm not involved in writing funding proposals),Suitable,Suitable
+The School of Engineering,Yes,PhD Student,Yes,"https://git.kernel.org/
+https://www.archlinux.org/
+https://ubuntu.com/
+https://www.debian.org/",,Yes,4,Yes,4,No,Yes,Confident,Not confident,Not confident,1,No,No (I'm not involved in writing funding proposals),Suitable,Unsuitable
+The School of Humanities & Sciences,No,PhD Student,Yes,"https://github.com/SurajGupta/r-source
+https://github.com/rclone/rclone
+https://github.com/Rdatatable/data.table
+https://github.com/tidyverse/tidyverse
+https://github.com/topepo/caret
+https://github.com/libgeos/geos
+https://github.com/OSGeo/gdal
+https://github.com/OSGeo/PROJ",,Yes,5,Yes,3,No,Yes,Confident,Not confident,Not confident,4,No,No (I'm not involved in writing funding proposals),Unsuitable,Suitable
