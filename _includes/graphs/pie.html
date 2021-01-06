@@ -7,20 +7,20 @@ var config = {
     type: 'pie',
     data: {
         datasets: [{
-            data: [{% for count in include.counts %}{{ count[1] }}{% if forloop.last %}{% else %},{% endif %} {% endfor %}],
-            backgroundColor: palette('tol{% if number > 12 %}-dv{% endif %}', {{ counts|size }}).map(function(hex) {
+            data: [{% for count in include.counts %}{{ count[1] }}{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
+            backgroundColor: palette('tol{% if number > 12 %}-dv{% endif %}', {{ include.counts|size }}).map(function(hex) {
                 return '#' + hex;
             }),
             label: 'Dataset 1'
         }],
-        labels: [{% for count in include.counts %}"{{ count[0] }}"{% if forloop.last %}{% else %},{% endif %} {% endfor %}]
+        labels: [{% for count in include.counts %}"{{ count[0] }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
     },
     options: {
         responsive: true,
         legend: {
             display: true,
-            align: "left",
-            position: "right"
+            align: "center",
+            position: {% if include.legend %}"{{ include.legend }}"{% else %}"right"{% endif %}
         }
     }
 };

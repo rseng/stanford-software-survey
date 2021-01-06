@@ -1168,12 +1168,14 @@
             "No (I'm not involved in writing funding proposals)",
             "No (but we DID expect to write software as part of the project)",
             "No (I'm not involved in writing funding proposals)",
-            "Yes;No (I'm not involved in writing funding proposals)",
+            "Yes",
+            "No (I'm not involved in writing funding proposals)",
             "No (we did NOT expect to write software as part of the project)",
             "No (I'm not involved in writing funding proposals)",
             "No (we did NOT expect to write software as part of the project)",
             "Yes",
-            "No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project)",
+            "No (I'm not involved in writing funding proposals)",
+            "No (but we DID expect to write software as part of the project)",
             "No (I'm not involved in writing funding proposals)",
             "Yes",
             "No (I'm not involved in writing funding proposals)",
@@ -1232,12 +1234,10 @@
             "No (I'm not involved in writing funding proposals)"
         ],
         "counts": {
-            "Yes": 15,
-            "No (but we DID expect to write software as part of the project)": 13,
-            "No (I'm not involved in writing funding proposals)": 35,
-            "Yes;No (I'm not involved in writing funding proposals)": 1,
-            "No (we did NOT expect to write software as part of the project)": 3,
-            "No (I'm not involved in writing funding proposals);No (but we DID expect to write software as part of the project)": 1
+            "Yes": 16,
+            "No (but we DID expect to write software as part of the project)": 14,
+            "No (I'm not involved in writing funding proposals)": 37,
+            "No (we did NOT expect to write software as part of the project)": 3
         }
     },
     "How suitable would the following models be for your software development needs? Hire a full-time software developer": {

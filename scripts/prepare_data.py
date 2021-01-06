@@ -8,6 +8,7 @@ import os
 import sys
 
 root = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+multiple_choice_fields = ["Have you ever included costs for software development in a funding proposal?"]
 
 def get_parser():
 
@@ -64,9 +65,19 @@ def rows_to_dict(rows):
     data = {}
     for idx, key in enumerate(header):
 
+        # special case multiple choice
+        if key in multiple_choice_fields:
+            values = []
+            for row in rows:
+                for entry in row[idx].split(';'):
+                    if not entry:
+                        continue
+                    values = values + [entry]
+        else:
+            values = [x[idx] for x in rows if x[idx]]
+
         # Remove any [] from the key
         key = key.replace('[','').replace(']', '').strip()
-        values = [x[idx] for x in rows if x[idx]]
         counts = defaultdict(lambda: 0)
         for value in values:
             counts[value] += 1

@@ -1,11 +1,27 @@
 baseurl: ''
-exclude: ['README.md']
 permalink: pretty
 title: 'The Stanford Software Survey'
 
 google_analytics_id: ""
 footer:
   copyright_text: 'Copyright 2021, Stanford University'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "page"
+
+exclude:
+  - _site
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
 
 seo:
   meta_og_title: "Stanford Software Survey"
