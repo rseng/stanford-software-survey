@@ -28,7 +28,7 @@ bodyClass: page-home
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{site.baseurl}}{{ service.url }}">{{ result.title }}</a>
+              <a href="{{site.baseurl}}{{ result.url }}">{{ result.title }}</a>
             </h2>
             <p>{{ result.content | markdownify | strip_html | truncate: 100 }}</p>
           </div>
