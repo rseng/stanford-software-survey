@@ -45,22 +45,35 @@ and then randomly select 5 participants (one of the last questions) to randomly 
 
 #### 4. Add to Survey Site
 
+##### Raw Data
 The data can be downloaded as csv, and should be put in the [raw data](_data/raw/) folder named by the year.
-Since we need to do a bit of aggregation over values, you should run it against the [scripts/prepare_data.py](scripts/prepare_data.py)
-to generate the output file. 
 
+##### Cleaned Data
 **Optionally** you can go through the original data file and clean up results. For example, you might want to
 look through the question "What is your job title?" and update to a common set (e.g., RA == Research Assistant)
-so the graph will be cleaner.
+so the graph will be cleaner. For example, we did this for 2020 and put the cleaned data under [_data/cleaned](_data/cleaned).
+
+**Importantly** - for both raw and cleaned files, you need to remove the last two questions that collect personal information before
+committing to the repository. Also if you update the survey, make sure to update the script accordingly.
+Note that the final questions that ask for participant contact information are removed.
+
+##### Prepare Data
+Since we need to do a bit of aggregation over values, the next step is to run the data file against
+the [scripts/prepare_data.py](scripts/prepare_data.py) to generate the output file. 
 
 ```bash
 $ python scripts/prepare_data.py _data/cleaned/stanford-software-survey-2020.csv 
 Writing output to /home/vanessa/Desktop/Code/stanford-software-survey/_data/stanford-software-survey-2020.json
 ```
 
-**Importantly** - you need to remove the last two questions that collect personal information before
-committing to the repository. Also if you update the survey, make sure to update the script accordingly.
-Note that the final questions that ask for participant contact information are removed.
+##### Open Ended Questions
+
+The survey (as of 2020) has two open ended questions asking users to share open source software developed and used.
+Since these are free text entry, they typically require some manual parsing. You should create data
+files (in yaml is easiest) under [_data/software](_data/software) that also can parsed into an equivalent
+plot, table, or other visualization appropriate for the data.
+
+##### Embed Results
 You should then add a [result](_results) to the `_results` folder, where each file coincides with
 a question (e.g., if we have the same question over two years it will be easy to compare the results).
 If you have a new question, just create a new page! The original creator @vsoch chose Chart.js, but of course you can

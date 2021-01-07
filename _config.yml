@@ -1,4 +1,5 @@
-baseurl: ''
+baseurl: "/stanford-software-survey"
+url: ""
 permalink: pretty
 title: 'The Stanford Software Survey'
 
@@ -25,6 +26,7 @@ exclude:
   - LICENSE
   - README.md
   - vendor
+  - _data/software/2020.yml
 
 seo:
   meta_og_title: "Stanford Software Survey"
