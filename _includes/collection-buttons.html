@@ -32,5 +32,5 @@
   {% assign prev = links %}
 {% endfor %}{% endfor %}
 
-{% if prevurl %}<a style="float:left" href="{{ prevurl }}" class="button"> Previous: {{ page.previous.title }}</a>{% endif %}
-{% if nexturl %}<a style="float:right" href="{{ nexturl }}" class="button">Next: {{ page.next.title }}</a>{% endif %}
+{% if prevurl %}<a style="float:left" href="{{ site.baseurl }}/{{ prevurl }}" class="button"> Previous: {{ page.previous.title }}</a>{% endif %}
+{% if nexturl %}<a style="float:right" href="{{ site.baseurl }}/{{ nexturl }}" class="button">Next: {{ page.next.title }}</a>{% endif %}
