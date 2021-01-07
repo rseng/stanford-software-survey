@@ -79,7 +79,6 @@ graduate students, lab and university staff, and postdoctoral candidates work on
 
 # Software Development
 
-
 # How do you rate your software development expertise?
 
 {% assign expertise_counts = site.data.stanford-software-survey-2020["How do you rate your software development expertise?"].counts %}
@@ -99,6 +98,24 @@ graduate students, lab and university staff, and postdoctoral candidates work on
 {% assign usupport_counts = site.data.stanford-software-survey-2020["How would you rate the university's current level of support for your software-development needs?"].counts %}
 {% include graphs/bar.html counts=usupport_counts divid="usupport_chart_2020" labels="Very Poor,Poor,Average,Good,Excellent" %}
 
+## Open Source Software Used
+
+<p class="team team-summary team-summary-large">If you look closely at the chart linked from the button below, you'll see everything reported from programming languages (Python, R, Perl, etc.) to version control software and
+platforms (e.g., git, GitHub) to scientific programming libraries (e.g., numpy, scipy, matplotlib),
+and databases (sqlite, sqalchemy). You'll even see frontend fraemworks like React, NodeJs, and electron!
+ A lot of the results also hint at particular domains of science or study such as natural language processing (NLP) or geography. The interesting question,
+then, is how can we create some initiative to better showcase and support these open source
+libraries?</p>
+
+<a class="button" href="{{ site.baseurl }}/results/open-source-software-used/">Open Source Software Used</a>
+
+<br>
+
+## Open Source Software Developed 
+
+<p class="team team-summary team-summary-large">The graphic linked below shows only a small sample of the open source software developed by Stanford researchers! Very likely there are still cultural challenges to sharing, meaning that a lab or individual won't share due to fears about being "scooped." If you look closely, you'll see that some labs have their own GitHub organization, and other software is developed under the name of an individual.</p>
+
+<a class="button" href="{{ site.baseurl }}/results/open-source-software-developed/">Open Source Software Developed</a>
 
 <br>
 

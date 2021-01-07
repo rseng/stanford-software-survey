@@ -1,0 +1,333 @@
+software:
+  open-source-libraries-used:
+    - name: github
+      count: 11
+      url: https://github.com
+    - name: git
+      count: 2
+      url: https://git-scm.com/doc
+    - name: python
+      count: 3
+      url: https://github.com/python
+    - name: r
+      count: 4
+      url: https://www.r-project.org/
+    - name: julialang/julia
+      count: 1
+      url: https://github.com/JuliaLang/julia
+    - name: qgis/qgis
+      count: 1
+      url: https://github.com/qgis/QGIS
+    - name: osgeo/proj
+      count: 1
+      url: https://github.com/OSGeo/PROJ
+    - name: pandas-dev/pandas
+      count: 5
+      url: https://github.com/pandas-dev/pandas
+    - name: osgeo/gdal
+      count: 2
+      url: https://github.com/OSGeo/gdal
+    - name: libgeos/geos
+      count: 1
+      url: https://github.com/libgeos/geos
+    - name: python/cpython
+      count: 1
+      url: https://github.com/python/cpython
+    - name: numpy/numpy
+      count: 7
+      url: https://github.com/numpy/numpy
+    - name: scikit-image/scikit-image
+      count: 1
+      url: https://github.com/scikit-image/scikit-image
+    - name: scipy/scipy
+      count: 5
+      url: https://github.com/scipy/scipy
+    - name: toblerity/shapely
+      count: 1
+      url: https://github.com/Toblerity/Shapely
+    - name: electron/electron
+      count: 1
+      url: https://github.com/electron/electron
+    - name: nodejs/nodejs
+      count: 1
+      url: https://github.com/nodejs/node
+    - name: facebook/react
+      count: 1
+      url: https://github.com/facebook/react
+    - name: rdkit
+      count: 1
+      url: https://www.rdkit.org
+    - name: hpcng/singularity
+      count: 1
+      url: https://github.com/hpcng/singularity
+    - name: jupyterlab
+      count: 2
+      url: https://github.com/jupyterlab
+    - name: pyenv/pyenv
+      count: 1
+      url: https://github.com/pyenv/pyenv
+    - name: nipreps/fmriprep
+      count: 1
+      url: https://github.com/nipreps/fmriprep
+    - name: nipy/nipype
+      count: 1
+      url: https://github.com/nipy/nipype
+    - name: scikit-learn/scikit-learn
+      count: 2
+      url: https://github.com/scikit-learn/scikit-learn
+    - name: sqlite/sqlite
+      count: 1
+      url: https://github.com/sqlite/sqlite
+    - name: sqalchemy/sqlalchemy
+      count: 1
+      url: https://github.com/sqlalchemy/sqlalchemy
+    - name: dask/dask
+      count: 1
+      url: https://github.com/dask/dask
+    - name: datajoint
+      count: 1
+      url: https://github.com/datajoint
+    - name: napari/napari
+      count: 1
+      url: https://github.com/napari/napari
+    - name: mouseland/cellpose
+      count: 1
+      url: https://github.com/MouseLand/cellpose
+    - name: google/neuroglancer
+      count: 1
+      url: https://github.com/google/neuroglancer
+    - name: cupy/cupy
+      count: 1
+      url: https://github.com/cupy/cupy
+    - name: mritools/cupyimg
+      count: 1
+      url: https://github.com/mritools/cupyimg
+    - name: pydata/xarray
+      count: 1
+      url: https://github.com/pydata/xarray
+    - name: zarr-developers/zarr-python
+      count: 1
+      url: https://github.com/zarr-developers/zarr-python
+    - name: torvalds/linux
+      count: 1
+      url: https://github.com/torvalds/linux
+    - name: archlinux
+      count: 1
+      url: https://www.archlinux.org
+    - name: emacs
+      count: 1
+      url: https://www.gnu.org/software/emacs/
+    - name: perl
+      count: 1
+      url: https://www.perl.org
+    - name: lh3/bwa
+      count: 2
+      url: https://github.com/lh3/bwa
+    - name: samtools
+      count: 1
+      url: https://github.com/samtools/
+    - name: voutcn/megahit
+      count: 1
+      url: https://github.com/voutcn/megahit
+    - name: matplotlib/matplotlib
+      count: 2
+      url: https://github.com/matplotlib/matplotlib
+    - name: mwaskom/seaborn      
+      count: 2
+      url: https://github.com/mwaskom/seaborn
+    - name: pytorch/pytorch
+      count: 2
+      url: https://github.com/pytorch/pytorch
+    - name: explosion/spacy
+      count: 2
+      url: https://github.com/explosion/spaCy
+    - name: alexdobin/star
+      count: 1
+      url: https://github.com/alexdobin/STAR
+    - name: dpdk
+      count: 1
+      url: https://github.com/dpdk
+    - name: grpc/grpc
+      count: 1
+      url: https://github.com/grpc/grpc
+    - name: ros/ros
+      count: 3
+      url: https://github.com/ros/ros
+    - name: tensorflow/tensorflow
+      count: 2
+      url: https://github.com/tensorflow/tensorflow
+    - name: grame-cncm/faust
+      count: 1
+      url: https://github.com/grame-cncm/faust
+    - name: juce-framework/juce
+      count: 1
+      url: https://github.com/juce-framework/JUCE
+    - name: juliapomdp/pomdps.jl
+      count: 1
+      url: https://github.com/JuliaPOMDP/POMDPs.jl
+    - name: cran
+      count: 1
+      url: https://github.com/cran
+    - name: derrickwood/kraken2
+      count: 1
+      url: https://github.com/DerrickWood/kraken2
+    - name: ablab/spades 
+      count: 1
+      url: https://github.com/ablab/spades
+    - name: mikelove/deseq2
+      count: 1
+      url: https://github.com/mikelove/DESeq2
+    - name: theislab/scanpy
+      count: 1
+      url: https://github.com/theislab/scanpy
+    - name: satijalab/seurat
+      count: 1
+      url: https://github.com/satijalab/seurat
+    - name: mskcc/facets
+      count: 1
+      url: https://github.com/mskcc/facets
+    - name: mskcc/nf-core
+      count: 1
+      url: https://github.com/nf-core
+    - name: html
+      count: 1
+      url: https://www.w3schools.com/html/
+    - name: bioconductor
+      count: 1
+      url: https://www.bioconductor.org/
+    - name: nltk
+      count: 1
+      url: http://www.nltk.org/
+    - name: chartbeat-labs/textacy
+      count: 1
+      url: https://github.com/chartbeat-labs/textacy
+    - name: beautifulsoup
+      count: 2
+      url: https://launchpad.net/beautifulsoup
+    - name: rare-technologies/gensim
+      count: 1
+      url: https://github.com/RaRe-Technologies/gensim
+    - name: abosamoor/polyglot
+      count: 1
+      url: https://github.com/aboSamoor/polyglot
+    - name: sloria/textblob
+      count: 1
+      url: https://github.com/sloria/TextBlob
+    - name: clips/pattern
+      count: 1
+      url: https://github.com/clips/pattern
+    - name: flairnlp/flair
+      count: 1
+      url: https://github.com/flairNLP/flair
+    - name: otree-org/otree
+      count: 1
+      url: https://github.com/oTree-org/oTree
+    - name: ubuntu
+      count: 1
+      url: https://ubuntu.com/
+    - name: debian
+      count: 1
+      url: https://www.debian.org/
+    - name: surajgupta/r-source
+      count: 1
+      url: https://github.com/SurajGupta/r-source
+    - name: rclone/rclone
+      count: 1
+      url: https://github.com/rclone/rclone
+    - name: rdatatable/data.table
+      count: 1
+      url: https://github.com/Rdatatable/data.table
+    - name: tidyverse/tidyverse
+      count: 1
+      url: https://github.com/tidyverse/tidyverse
+    - name: topepo/caret
+      count: 1
+      url: https://github.com/topepo/caret
+  open-source-libraries-developed:
+    - name: deisseroth-lab
+      count: 1
+      url: https://github.com/deisseroth-lab
+    - name: natcap/invest
+      count: 2
+      url: https://github.com/natcap/invest
+    - name: natcap/pygeoprocessing
+      count: 1
+      url: https://github.com/natcap/pygeoprocessing
+    - name: natcap/taskgraph
+      count: 1
+      url: https://github.com/natcap/taskgraph
+    - name: mrforce/tidepipeline
+      count: 1
+      url: https://github.com/mrForce/tidePipeline
+    - name: stanford-mast 
+      count: 1
+      url: https://github.com/stanford-mast
+    - name: protege
+      count: 1
+      url: https://protege.stanford.edu
+    - name: bioportal
+      count: 1
+      url: https://bioportal.bioontology.org
+    - name: metadatacenter
+      count: 1
+      url: https://metadatacenter.org
+    - name: stanfordmsl
+      count: 1
+      url: https://github.com/StanfordMSL
+    - name: grf-labs/grf
+      count: 1
+      url: https://github.com/grf-labs/grf
+    - name: grf-labs/policytree
+      count: 1
+      url: https://github.com/grf-labs/policytree
+    - name: grf-labs/sufrep
+      count: 1
+      url: https://github.com/grf-labs/sufrep
+    - name: synth-inference/synthdid
+      count: 1
+      url: https://github.com/synth-inference/synthdid      
+    - name: susanathey/casualtree
+      count: 1
+      url: https://github.com/susanathey/causalTree
+    - name: susanathey/mcpanel
+      count: 1
+      url: https://github.com/susanathey/MCPanel
+    - name: rlworkgroup/metaworld
+      count: 1
+      url: https://github.com/rlworkgroup/metaworld
+    - name: cbfinn/maml
+      count: 1
+      url: https://github.com/cbfinn/maml
+    - name: ezliu/dream
+      count: 1
+      url: https://github.com/ezliu/dream
+    - name: sudeepdasari/robonet
+      count: 1
+      url: https://github.com/SudeepDasari/RoboNet
+    - name: abishara/athena_meta
+      count: 1
+      url: https://github.com/abishara/athena_meta
+    - name: bhattlab/bhattlab_workflows
+      count: 1
+      url: https://github.com/bhattlab/bhattlab_workflows
+    - name: salzmanlab/sicilian
+      count: 1
+      url: https://github.com/salzmanlab/SICILIAN
+    - name: lindaszabo/knife
+      count: 1
+      url: https://github.com/lindaszabo/KNIFE
+    - name: juliaolivieri/szs_pipeline
+      count: 1
+      url: https://github.com/juliaolivieri/SZS_pipeline
+    - name: bhattlab
+      count: 2
+      url: https://github.com/bhattlab
+    - name: rohitrrj
+      count: 1
+      url: https://github.com/rohitrrj
+    - name: mayamathur
+      count: 1
+      url: https://github.com/mayamathur
+    - name: stanfordvl/igibson
+      count: 1
+      url: https://github.com/StanfordVL/iGibson  
