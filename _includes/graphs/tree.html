@@ -70,7 +70,7 @@ var treemap = d3.treemap()
 
   cell.append("title")
       .text(function(d) { 
-         return d.data.id + "\ncount: " + format(d.value)); 
+         return d.data.id + "\ncount: " + format(d.value); 
        });
 
   var timeout = d3.timeout(function() {
