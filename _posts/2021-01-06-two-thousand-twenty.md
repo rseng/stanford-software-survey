@@ -7,7 +7,7 @@ layout: post
 
 2020 was the first year of the Stanford Software Survey, which started discussion
 in early April, was developed in the months following, and went out in the Fall.
-In this post, we discuss the full results, which can serve as a baseline for future
+In this post, we discuss the full results for 68 participants, which can serve as a baseline for future
 surveys, and the start of initiative to prove the necessity for research software
 engineers.
 
@@ -181,3 +181,6 @@ libraries?</p>
 
 <p class="team team-summary team-summary-large">Interestingly, while the majority would not want to hire a full time developer, recruiting a developer from RSE Services seems to be the majority choice, with three quarters of respondants indicating that it would be suitable or perfect. This indeed is a result that reflects on the need for a team of research software engineers. The remaining challenge, however, is figuring out how to make that service cost effective for the researchers that likely don't have ample funding.</p>
 
+
+We hope that in future surveys we can better advertise and incentivize the Stanford community
+to participate, and increase the size of the sample.

@@ -100,6 +100,7 @@ The 2020 survey results can be viewed via [Google Forms](https://docs.google.com
 and the announcement is found [here](https://itcommunity.stanford.edu/take5/participate-stanford-software-survey).
 
 
-## Resources
+## Resources and Thanks
 
  - [color palettes](https://github.com/google/palette.js/blob/master/palette.js#L534) that are used in the plots can be seen here.
+ - [jekyll-serif-theme](https://github.com/zerostaticthemes/jekyll-serif-theme)
