@@ -92,6 +92,12 @@ yaml in the [_config.yml](_config.yml):
 current_results: /2021/01/04/two-thousand-twenty/
 ```
 
+We have an equivalent graphic for sharing results, also beautifully done by UIT
+Communications!
+
+![assets/img/Research-Results-250-2020.png](assets/img/Research-Results-250-2020.png)
+
+
 ## Survey Archive
 
 ### 2020
