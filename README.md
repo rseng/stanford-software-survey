@@ -1,6 +1,7 @@
 # Stanford Software Survey
 
 ![images/features/home.png](images/features/home.png)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4464626.svg)](https://doi.org/10.5281/zenodo.4464626)
 
 This is the Stanford Software Survey started in 2020 by Research Computing (SRCC)
 and the Data Sciences Institute (CORES). Results are organized by year in the [_data](_data) folder, 
@@ -97,6 +98,9 @@ Communications!
 
 ![assets/img/Research-Results-250-2020.png](assets/img/Research-Results-250-2020.png)
 
+The DOI on Zenodo is created manually, as the integration didn't work. You can give a shot
+at doing the integration again, or create another entry manually for the same record.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4464626.svg)](https://doi.org/10.5281/zenodo.4464626)
 
 ## Survey Archive
 
