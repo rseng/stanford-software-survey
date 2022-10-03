@@ -1,5 +1,8 @@
 # Stanford Software Survey
 
+**Warning** This is a copy of the original survey distributed in 2019, preserved as a template for future usage. It is in
+no way still affiliated with Stanford University.
+
 ![images/features/home.png](images/features/home.png)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4464626.svg)](https://doi.org/10.5281/zenodo.4464626)
 
